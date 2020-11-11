@@ -4,7 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.io.PrintWriter;
 import org.junit.jupiter.api.Test;
 
-import code.mission.MissionImpossible;  
+import code.mission.MissionImpossible;
+
+
 
 public class TestMissionImpossible {
 	String grid5 = "5,5;2,1;1,0;1,3,4,2,4,1,3,1;54,31,39,98;2";
