@@ -254,28 +254,28 @@ public class TestMissionImpossible {
 		assertTrue(applyPlan(grid15, solution));
 	}
 	
-	@Test(timeout = 80000)
+	@Test
 	public void testd1() throws Exception {
 		String solution = MissionImpossible.solve(grid5, "ID", false);
 		solution = solution.replace(" ", "");
 		assertTrue(applyPlan(grid5, solution));
 	}
 	
-	@Test(timeout = 80000)
+	@Test
 	public void testd2() throws Exception {
 		String solution = MissionImpossible.solve(grid6, "ID", false);
 		solution = solution.replace(" ", "");
 		assertTrue(applyPlan(grid6, solution));
 	}
 	
-	@Test(timeout = 80000)
+	@Test
 	public void testd3() throws Exception {
 		String solution = MissionImpossible.solve(grid7, "ID", false);
 		solution = solution.replace(" ", "");
 		assertTrue(applyPlan(grid7, solution));
 	}
 	
-	@Test(timeout = 80000)
+	@Test
 	public void testd4() throws Exception {
 		String solution = MissionImpossible.solve(grid8, "ID", false);
 		solution = solution.replace(" ", "");
